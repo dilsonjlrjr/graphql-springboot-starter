@@ -1,0 +1,8 @@
+type Empresa {
+    cnpj: String!
+    nome: String!
+}
+
+type Query {
+    findAll: [Empresa]
+}

@@ -1,0 +1,11 @@
+graphql:
+  servlet:
+    mapping: /graphql
+    enabled: true
+    corsEnabled: true
+    exception-handlers-enabled: true
+graphql.playground:
+  mapping: /playground
+  endpoint: /graphql
+  enabled: true
+  pageTitle: Playground
