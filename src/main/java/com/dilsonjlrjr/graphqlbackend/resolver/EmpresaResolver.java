@@ -1,6 +1,5 @@
 package com.dilsonjlrjr.graphqlbackend.resolver;
 
-import com.dilsonjlrjr.graphqlbackend.factory.EmpresaFactory;
 import com.dilsonjlrjr.graphqlbackend.model.Empresa;
 import com.dilsonjlrjr.graphqlbackend.service.EmpresaService;
 import graphql.kickstart.tools.GraphQLQueryResolver;
